@@ -1,0 +1,9 @@
+.primeiro-h1{
+    color: rgba(0, 0, 255, 0.5); /* 50% de opacidade os dois ultimos numeros */
+    font-family: sans-serif; 
+    
+    /* font-family: nome da fonte google, sans-serif; 
+
+    /* tirar a borda/traco dos cantos das letras */
+    /* Usar google fonts - escolher fonte - copiar link - colar no html acima do link e title. */
+}
