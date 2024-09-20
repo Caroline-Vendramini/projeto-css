@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+.container{
+    background-color: #121212;
+    width: 700px; /* Largura Div */
+    color: #FFFFFF;
+    
+    /* margin: espacamento externo
+    margin-top: 70px; >topo
+    margin-left:50px; >esquerda
+    margin-right: 5opx; >direita
+    margin-bottom: 50px;
+    */
+    margin: 80px; /* ao redor das 4 laterais */
+
+    /* padding: espacamento interno */
+    padding-top: 30px;
+
+    border: 5px solid red;
+    border-radius: 10px;
+}
