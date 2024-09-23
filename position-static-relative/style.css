@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    /*
+    Demonstracao box-sizing:
+    https//:developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+    */
+}
+
+body{
+    font-family: sans-serif;
+    height: 180vh;
+}
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color: #FFFFFF;
+    margin: auto; 
+    padding: 50px;
+    border: 5px solid red;
+    border-radius: 10px;
+    position: static;
+}
+
+/*
+ > 1. Por padrao temos o Static, ou seja, statico.
+ > 2. Relative elemento é posicionado em relaçao a sua posicao normal.
+ (top, bottom, left, right).
+ > 3. Absolute.
+ > 4. Fixed.
+ > 5. Sticky.
+*/
+
+.area{
+    position: relative;
+    top: 150px;
+    left: 90px;
+
+    border: 5px solid green;
+}
