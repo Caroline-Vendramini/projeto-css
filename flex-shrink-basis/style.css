@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: sans-serif;
+    height: 180vh;
+}
+
+.container{
+    background-color: #121212;
+    height: 500px;
+    margin: 50px;
+
+    /* Ativando felxbox no container, que por padrao vem em linha */
+    display: flex;
+    flex-direction: row; /*coluna de tras pra frente - row; row-reverse; column;  */
+
+}
+
+.area{
+    width: 100px;
+    height: 100px;
+
+    flex-basis: 400PX;
+    flex-grow: 1;
+}
+
+.item-1{
+    background-color: red;
+    flex-shrink: 1;
+}
+
+.item-2{
+    background-color: blue;
+    flex-shrink: 1;
+}
+
+.item-3{
+    background-color: green;
+
+    /* Esse elemento vai reduzir 2x mais do que os elementos com 1 quando reduzir o tamanho da tela*/
+    flex-shrink: 2;
+}
